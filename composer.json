@@ -1,0 +1,24 @@
+{
+    "name": "eoghanobrien/google-analytics-statusboard",
+    "description": "Google Analytics Widget for Statusboard",
+    "keywords": ["google analytics","statusboard"],
+    "homepage": "http://github.com/eoghanobrien/google-analytics-statusboard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eoghan O'Brien",
+            "email": "eoghan@eoghanobrien.com",
+            "homepage": "http://blog.eoghanobrien.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.5",
+        "zend/gdata": "dev-master"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Zend_" : "library/"
+        }
+    }
+}
